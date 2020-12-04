@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Adivinanza</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="imagenes/icon.gif">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body style="background-image: url('imagenes/fondo.png');">
+    <nav class="navbar navbar-expand-md bg-primary navbar-dark">
+        <a class="navbar-brand" href="index.html">
+            <img src="imagenes/logo.gif" alt="logo de pagina"/>
+            Retro PCs
+        </a>
+    
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+            <a class="nav-link" href="puertos.html">Puertos de Expansion</a>
+            </li>
+            <li class="nav-item active">
+            <a class="nav-link" href="registro.html">Registro</a>
+            </li>
+            <li class="nav-item active">
+            <a class="nav-link" href="adivinanza.html">adivinanza</a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+
+    <div class="container" id="adivinanza" style="background-image: url('imagenes/hojas.jpg');">
+        <div class="col-lg">
+            <br><label id="titulo"></label>
+            <br><label id="stats"></label>
+            <br><input type="text" id="entrada" placeholder="ingrese su respuesta"/>
+            <br class="row">
+            <br><input type="button" class="btn btn-primary" id="enviar" value="enviar respuesta">
+            <input type="button" class="btn btn-primary" id="siguiente" value="Continuar" disabled>
+            <br><div id="pista"></div>
+            <br><div id="pista2"></div>
+        </div>
+    </div>
+    
+
+    <script type="text/javascript" src="riddle_script.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
